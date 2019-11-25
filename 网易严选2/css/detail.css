@@ -1,0 +1,573 @@
+@charset "UTF-8";
+
+/* 一个 CSS 文件 引入 另外一个 CSS */
+/* CSS 样式的导入 */
+@import "index_common.css";
+
+/* 内容部分 */
+.info {
+    margin-bottom: 30px;
+}
+.info_header {
+    color: #333;
+    font-size: 12px;
+    padding: 20px 0;;
+}
+/* .info_header a {
+    color: #333;
+} */
+.info_header a:hover {
+    /* color: #b4a078; */
+    /* text-decoration: underline; */
+    border-bottom: 1px solid #b4a078;
+}
+i {
+    font-family: "icomoon";
+}
+
+.info_left {
+    width: 430px;
+}
+.info_img {
+    position: relative;
+}
+
+.info_img i {
+    /* 绝对定位元素 具有行内块的特点 */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-position: 0 -6654px;
+    background-image: url(../images/hxm_yanxuan-web1.png);
+    background-repeat: no-repeat;
+}
+.img_list {
+    margin-top: 20px;
+}
+.img_list ul {
+    margin-right: -10px;
+}
+.img_list ul li {
+    float: left;
+    margin-right: 10px;
+}
+.img_list li a {
+    display: block;
+    overflow: hidden;
+    /* width: 76px;
+    height: 76px;
+    border: 1px solid transparent; */
+    width: 78px;
+    height: 78px;
+}
+.img_list li a:hover,
+.img_list .img_list_f a {
+    width: 74px;
+    height: 74px;
+    border: 2px solid #b4a078;
+}
+.img_list li a:hover img,
+.img_list .img_list_f a img {
+    width: 74px;
+}
+
+.info_footer {
+    margin-top: 20px;
+}
+.info_footer a {
+    display: inline-block;
+    width: 129px;
+    height: 26px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #b4a078;
+    background-color: #f5f3ef;
+    font-size: 14px;
+}
+.info_footer a:hover {
+    background-color: #fff;
+}
+
+/* 产品信息 右侧 */
+.info_right {
+    width: 620px;
+}
+.pro_title {
+    margin-bottom: 7px;
+}
+.pro_title span {
+    color: #E36844;
+    font-size: 20px;
+} 
+.pro_title h4 {
+    font-size: 20px;
+    color: #333;
+}
+.pro_doc  {
+    /* 他的 儿子们 会 继承这样式 */
+    /* a 标签的颜色设置 特殊一点， a 有默认颜色 */
+    color: #999;
+    font-size: 14px;
+}
+/* 产品价格 */
+.pro_price {
+    background-color: #f5f3ef;
+    border-top: 1px dotted #dedede;
+    border-bottom: 1px dotted #dedede;
+    padding: 0 0 13px;
+    line-height: 24px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.name {
+    width: 55px;
+    padding: 19px 0 0 10px;;
+}
+/* .name span {
+
+    margin: 19px 0 0 10px;
+} */
+.value_pic {
+    padding-top: 19px;
+    color: #d7282d;
+    font-size: 18px;
+}
+.value_pic span {
+    font-size: 28px;
+    font-weight: 700;
+}
+.value_doc {
+    font-size: 12px;
+    color: #C43C3B;
+    font-weight: 700;
+}
+.vip {
+    display: block;
+    padding: 10px;
+    height: 36px;
+    width: 458px;
+    font-size: 13px;
+    line-height: 1.1;
+    margin-top: 2px;
+    background: #F7EFDE;
+    cursor: pointer;
+}
+.vip i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    background: url(../images/hxm_yanxuan-web_p.png) no-repeat 0 -3686px;
+}
+.vip span {
+    color: #151515;
+}
+.vip p {
+    color: #B4A078;
+    margin-top: 6px;
+}
+
+.quan {
+    margin-top: 5px;
+    display: inline-block;
+    /* padding: 0 5px; */
+    /* border: 1px solid #D52B33; */
+
+    line-height: 18px;
+    font-size: 12px;
+    color: #D52B33;
+    background-color: #fff;
+}
+.quan i {
+    float: left;
+    /* display: inline-block; */
+    height: 20px;
+    width: 6px;
+    background: url(../images/hxm_yanxuan-web_p1.png) no-repeat 0 -135px;
+}
+.quan_title {
+    /* display: inline-block; */
+    float: left;
+    padding-left: 5px;
+    height: 18px;
+    border: 1px solid #D52B33; 
+    border-right: none;
+}
+.quan_j {
+    float: left;
+    padding-right: 5px;
+    height: 18px;
+    border: 1px solid #D52B33; 
+    border-left: none; 
+}
+.pricr_item .name {
+    padding-top: 5px;
+}
+
+.cuxiao span {
+
+    font-size: 12px;
+    background-color: #e36844;
+    padding: 2px 5px;
+    color: #fff;
+}
+
+.cuxiao {
+    margin-top: 5px;
+}
+.cuxiao a {
+    margin-left: 10px;
+    color: #333;
+    font-size: 13px;
+}
+.cuxiao a:hover {
+    text-decoration: underline;
+}
+
+.shop p {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #333;
+}
+.shop p em {
+    color: #C43C3B;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+.shop p i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/icon_img1.png);
+    background-size: contain;
+}
+.adds {
+    margin-top: 5px;
+}
+.service_item {
+    margin-top: 5px;
+    border-top: 1px dashed #d2d2d2;
+}
+.service {
+    margin-top: 15px;
+}
+.pricr_item .service_name {
+    margin-top: 10px;
+}
+
+.price_color ul li {
+    float: left;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.size_content {
+    margin-top: 20px;
+}
+.price_size {
+    width: 550px;
+}
+.price_size ul {
+    margin-right: -20px;
+}
+.price_size ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.price_size li a {
+    padding: 5px 10px;
+
+    border: 1px solid #ddd;
+}
+
+.number {
+    border: 1px solid #ddd;
+    height: 28px;
+    line-height: 28px;
+}
+.number span {
+    display: block;
+    width: 36px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+.number input {
+    border: none;
+    width: 60px;
+    text-align: center;
+}
+.lass {
+    border-right: 1px solid #ddd;
+    cursor: not-allowed;
+}
+.more {
+    border-left: 1px solid #ddd;
+    cursor: pointer;
+}
+.price_number i {
+    display: inline-block;
+    margin: 5px 10px ;
+    height: 18px;
+    width: 18px;
+    background: url(../images/hxm_yanxuan-web_p_2.png) no-repeat 0 -1740px;
+}
+.price_number .size {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #333;
+}
+.btns {
+    padding: 30px 10px;
+}
+.btn {
+    text-align: center;
+    width: 168px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #b4a078;
+    background-color: #b4a078;
+}
+.buy {
+    color: #b4a078;
+    border: 1px solid #b4a078;
+    margin-right: 10px;
+    background-color: #f5f3ef;
+    vertical-align: middle;
+}
+.btn:hover {
+    color: #fff;
+    border: 1px solid #c0ae8a;
+    background-color: #c0ae8a;
+}
+
+.collect_zone {
+    margin-left: 15px;
+    height: 49px;
+    width: 50px;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+.top span {
+    margin-top: 6px;
+    display: inline-block;
+    height: 15px;
+    width: 16px;
+    background: url(../images/hxm_yanxuan-web1.png) no-repeat 0 -696px;
+}
+.bottom {
+    height: 23px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #999;
+}
+
+/* 你可能还喜欢 */
+.you_like {
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+}
+.like_header {
+    height: 44px;
+    line-height: 44px;
+    font-size: 17px;
+    background-color: #f5f5f5;
+}
+.like_header span {
+    margin-left: 30px;
+}
+
+.like_content {
+    position: relative;
+    padding-bottom: 30px;
+}
+.slick {
+    margin-top: 12px;
+    margin-left: 79px;
+    width: 930px;
+    height: 307px;
+    /* background-color: pink; */
+}
+.slick ul {
+    margin-right: -30px;
+}
+.slick ul li {
+    background-color: #fff;
+    margin-right: 30px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.slick h3 {
+    margin: 10px 0 5px;
+    color: #333;
+    font-size: 13px;
+}
+.slick p {
+    font-size: 13px;
+    color: #b4282d;
+}
+.slick em {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #F4F1EB;
+    font-family: "icomoon";
+    color: #a7936e;
+    text-align: center;
+
+}
+.tag {
+    background-color: #f4f0ea;
+}
+
+.like_content .page_list a {
+    margin-top: 2px;
+    border: 1px solid #dfcead;
+}
+
+.like_content .page_list .page_item {
+    margin-top: 0;
+    background-color: #a7936e;
+    border: 3px solid #dfcead;
+}
+
+.slider_l,
+.slider_r {
+    position: absolute;
+    top: 100px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+.slider_l {
+    left: 20px;
+}
+.slider_r {
+    right: 20px;
+}
+
+/* 详情 */
+.detail_l {
+    width: 750px;
+    /* height: 300px; */
+    /* background-color: pink; */
+}
+.tab {
+    height: 42px;
+    border: 1px solid #E8E8E8;
+    background-color: #F5F5F5;
+}
+.tab ul li {
+    float: left;
+    width: 124px;
+    height: 42px;
+    line-height: 42px;
+    border-right: 1px solid #E8E8E8;
+    text-align: center;
+}
+.tab_first {
+    border-top: 3px solid #B4A078;
+    background-color: #fff;
+}
+.tab_detail {
+    margin-top: 30px;
+}
+.tab_detail ul li {
+    float: left;
+    /* padding-bottom: 14px; */
+    padding: 14px 0;
+    border-bottom: 1px dashed #E8E8E8;
+    width: 50%;
+}
+.tab_detail_l {
+    margin-left: 28px;
+    width: 97px;
+}
+.tab_detail_r {
+    color: #999;
+    font-size: 13px;
+}
+
+.tab_detail .detail_w {
+    width: 100%;
+}
+.tab_detail .service {
+    width: 100%;
+    border-bottom: none;
+    
+}
+
+.tab_detail .service p{
+    margin-top: 5px;
+    color: #999;
+    font-size: 13px;
+}
+
+
+/* 产品推荐 */
+.detail_r {
+    width: 298px;
+    /* height: 300px; */
+    /* background-color: #f00; */
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.detail_r_title {
+    height: 44px;
+    line-height: 44px;
+    font-size: 17px;
+    background-color: #f5f5f5;
+}
+.detail_r_top {
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+}
+.detail_r_top ul li {
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.doc {
+    display: inline-block;
+    font-size: 14px;
+    max-width: 156px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.detail_r_top p {
+    font-size: 14px;
+    color: #d62525;
+}
+.detail_r_top em {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #F4F1EB;
+    font-family: "icomoon";
+    color: #a7936e;
+    text-align: center;
+}

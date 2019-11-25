@@ -1,0 +1,41 @@
+/* css 存储格式声明 */
+@charset "UTF-8";
+
+/* 初始化样式 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 当前页面默认样式 */
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #b4a078;
+}
+
+/* 取消轮廓线 */
+input {
+    outline: none;
+}
+/* 取消按钮 默认边框 */
+button {
+    border: none;
+}
+
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}

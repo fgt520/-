@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/* 公共样式 */
+/* 版心 */
+.w {
+    width: 1090px;
+    margin: 0 auto;
+}
+/* 左浮动 */
+.fl {
+    float: left;
+}
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    height: 6000px;
+}
+
+/* 引入字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?otxoeu');
+    src:  url('../fonts/icomoon.eot?otxoeu#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?otxoeu') format('truetype'),
+      url('../fonts/icomoon.woff?otxoeu') format('woff'),
+      url('../fonts/icomoon.svg?otxoeu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  a {
+      font-family: "icomoon";
+  }
+
+  /* 取消左侧边框线 */
+  .none_bdl {
+      border-left: none !important;
+  }
+
+
+  /* 公共 按钮 */
+  .arrow_l,
+  .arrow_r {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #d0c4af;
+      font-family: "icomoon";
+      color: #fff;
+      font-size: 24px;
+      font-weight: 100;
+  }
+
+  /*产品头部标题 */
+  .title_header {
+    padding-bottom: 20px;
+    color: #333;
+    /* background-color: pink; */
+  }
+  .title_header h2 {
+      font-size: 28px;
+      margin-right: 20px;
+  }
+  .title_header h2:hover {
+      color: #b4a078;
+  }
+  .title_header p {
+      padding-top: 13px;
+      font-size: 14px;
+  }
+  .pdu_content ul li {
+      float: left;
+      width: 357px;
+      height: 320px;
+      margin-right: 10px;
+      background-color: pink;
+  }
+  .pdu_content .pdu_item {
+     height: 155px;
+}
+.pud_last {
+    margin-top: 10px;
+}
+.pdu_content ul {
+    margin-right: -11px;
+}
+
+/* 做动画 */
+.ani li {
+    overflow: hidden;
+}
+.ani li img {
+     /* 谁动画给谁本身加 */
+     transition: all 1s;
+}
+.ani li:hover img {
+    transform: scale(1.05);
+}
+
+.tip_tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0 4px;
+    font-size:  12px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+}
+
+.tags_label {
+    margin-top: 10px;
+    height: 20px;
+    text-align: center;
+}
+.tags_label span {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    background-color: #e36844;
+}
+
+
+.page_list {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    /* background-color: skyblue; */
+    text-align: center;
+}
+.page_list li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+}
+.page_list li a {
+    display: block;
+    margin: 3px auto 0;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    /* transparent 透明色 */
+    /* border: 3px solid transparent; */
+}
+
+.page_list li a:hover,
+.page_list .page_item {
+    margin-top: 0;
+    background-color: #a7936e;
+    border: 3px solid #dfcead;
+}
